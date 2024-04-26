@@ -7,4 +7,5 @@ The Kn is calculated as the slope from the origin to the apex point. The fractur
 ![Calculations](https://github.com/midmidmidmid/TractionSeparation/blob/main/calcs.png)
 
 The following plot is made:
+
 ![Plot](https://github.com/midmidmidmid/TractionSeparation/blob/main/Matlab_TractionSeparation.png)
