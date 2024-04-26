@@ -7,7 +7,7 @@ apex = [damage_sep, max_traction]
 Kn = (apex(2) - origin(2))/(apex(1) - origin(1))
 disp(Kn)
 
-Gc = (max_sep(1) - origin(1)) * damage_sep / 2
+Gc = (max_sep(1) - origin(1)) * max_traction / 2
 
 % Define vertices of the triangle
 v = [origin; max_sep; damage_sep, max_traction]; % Vertices of equilateral triangle
