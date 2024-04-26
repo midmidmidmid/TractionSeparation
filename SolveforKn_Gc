@@ -1,0 +1,35 @@
+origin = [0,0]
+max_sep = [1,0]
+damage_sep = 0.5
+max_traction = 0.75
+apex = [damage_sep, max_traction]
+
+Kn = (apex(2) - origin(2))/(apex(1) - origin(1))
+disp(Kn)
+
+Gc = (max_sep(1) - origin(1)) * damage_sep / 2
+
+% Define vertices of the triangle
+v = [origin; max_sep; damage_sep, max_traction]; % Vertices of equilateral triangle
+
+% Define faces of the triangle
+f = [1, 2, 3]; % Single face
+
+% Plot the triangle
+figure;
+patch('Faces', f, 'Vertices', v, 'FaceColor', 'green', 'FaceAlpha', 0.5, 'EdgeColor', 'none');
+hold on;
+
+% Plot the random points within the triangle
+%scatter(points(:,1), points(:,2), 10, 'r', 'filled');
+xlabel('separation');
+ylabel('traction');
+title('Traction-Separation Damage');
+
+% Set axis limits
+axis equal;
+xlim([0, 1]);
+ylim([0, 1]);
+
+textString = sprintf('K_n: %.2f\nG_c: %.2f', Kn, Gc);
+annotation('textbox', [0.7, 0.7, 0.2, 0.2], 'String', textString, 'FitBoxToText', 'on');
