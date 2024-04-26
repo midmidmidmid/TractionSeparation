@@ -9,3 +9,7 @@ The Kn is calculated as the slope from the origin to the apex point. The fractur
 The following plot is made:
 
 ![Plot](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/Matlab_TractionSeparation.png)
+
+You can therefore vary the damage separation to parametrize along this variable:
+
+![DamSepPlot](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots.png)
