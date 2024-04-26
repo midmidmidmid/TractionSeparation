@@ -16,7 +16,7 @@ The following plot is made:
 
 You can therefore vary the damage separation to parametrize along this variable:
 
-![DamSepPlot](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots.png)
+![DamSepPlot](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots4.png)
 
 
 Similarly this can be done for the maximum traction: 
