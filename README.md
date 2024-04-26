@@ -22,3 +22,14 @@ You can therefore vary the damage separation to parametrize along this variable:
 Similarly this can be done for the maximum traction: 
 
 ![MaxTracPlot](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots2.png)
+
+
+Through [SolveforMaxSep_DamageSep](https://github.com/midmidmidmid/TractionSeparation/blob/main/SolveforMaxSep_DamageSep) you can solve for the max separation and damage separation. These results are in red to differentiate. 
+
+Solely changing Gc we get:
+
+![GcChanged](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots5.png)
+
+and changing Kn we get:
+
+![Knchanged](https://github.com/midmidmidmid/TractionSeparation/blob/main/plots/combinedplots6.png)
